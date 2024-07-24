@@ -1,0 +1,108 @@
+body{
+    background-color: #D3D3D3;
+    margin: 0px;
+}
+h1{
+font-family: 'Courier New', monospace;  
+font-weight: 700;
+font-size: 50px;
+text-align: center;
+color: #1434A4;
+}
+h2{
+font-family: 'Courier New', monospace; 
+font-weight: 700;
+font-size: 40px;
+color: #1434A4;
+margin: 5px;
+
+}
+p{
+margin-left: 10px;
+font-family: 'Courier New', monospace;
+font-weight: 700;
+margin-top: 0px;
+}
+
+.paragraph{
+width: 65%;
+
+
+}
+
+
+.gt{
+position: relative;
+}
+.gtfoto{
+width: 100%;
+
+}
+.gtparagraph{
+position: absolute;
+top: 8px;
+right: 5px;
+font-size: 18px;
+text-align: end;
+width: 70%;
+}
+.videot{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: #1434A4;
+height: 250px;
+align-items: center;
+margin: 40px 0px ;
+}
+.card a {
+text-decoration: none;
+}
+.card {
+position: relative;
+transition: transform 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-10px);
+}
+.sl{
+position: relative;
+}
+.slfoto{
+width: 100%;
+}
+.slparagraph{
+position: absolute;
+bottom: 8px;
+right: 5px;
+font-size: 18px;
+text-align: end;
+width: 60%;
+
+}
+footer{
+text-align: center;
+background-color: black;
+color: white;
+bottom: 0;
+height: 200px;
+padding: 40px;
+}
+.s-classfoto{
+width: 100%;
+}
+.s-class{
+position: relative;
+}
+.s-classparagraph{
+position: absolute;
+bottom: 8px;
+left: 0px;
+font-size: 18px;
+width: 50%;
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
